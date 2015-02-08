@@ -1,0 +1,167 @@
+/*  App    - GO Demo 1.0
+    Author - saurav@sauravkumar.com
+    Date   - 02/08/2015
+*/
+/*Layout and font settings*/
+@font-face {
+  font-family: 'Stag';
+  src: url('../assets/Stag Sans-Book.otf');
+}
+
+body{
+    margin: 0 auto;
+    width: 1280px;
+
+    font-family: 'Stag';
+}
+
+.container{
+    width: 1280px;
+}
+
+/*Header component styles*/
+.header{
+    height: 60px;
+    background-color: #FFCA28;
+}
+.logo{
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 30px;
+    width: 39px;
+    height: 40px;
+
+    background: url(../images/logo.png);
+}
+
+.title {
+    position: relative;
+    top: 15px;
+    left: 40px;
+
+    float: left;
+}
+
+.title h2{
+    display: inline;
+    font-size: 26.16px;
+}
+
+.nav_bar{
+    position: absolute;
+    left: 868px;
+
+    padding-top: 10px;    
+}
+
+.nav_bar ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav_bar ul li{
+    display: inline-block;
+}
+
+.nav_bar .logo_user{
+    width: 41px;
+    height: 40px;
+    background: url(../images/user.png);
+    float: left;
+}
+
+.nav_bar .nav_salute{
+    padding-left: 4px;
+    color: #ef6b4a;
+}
+
+.nav_bar h4{
+    padding-top: 2px;
+}
+
+.nav_bar .logo_setting{
+    margin-left: 20px;
+    width: 21px;
+    height: 20px;
+    background: url(../images/setting.png);
+}
+
+.nav_bar .logo_logout{
+    margin-left: 20px;
+    width: 19px;
+    height: 20px;
+    background: url(../images/logout.png);   
+}
+
+/*Mast template and components*/
+.log_in{
+    width: 440px;
+    height: 420px;
+
+    background-color: #3d353a;
+
+    float: left;
+
+    color: #fff;
+
+    padding-top: 61px;
+    padding-left: 40px;
+    padding-right: 39px;
+}
+
+.btn-login{
+    background-color: #ef6b4a !important;
+    border: none;
+    color: #fff;
+
+    width: 160px; 
+}
+
+.sign_up_now{
+    padding-top: 61px;
+    padding-left: 40px;
+    padding-right: 39px;
+    color: #fff;
+    width: 400px;
+    height: 420px;
+
+    text-align: center;
+
+    background-color: #ef6b4a;    
+    float: left;
+}
+
+.btn-reg-now{
+    background-color: #3d353a; 
+    color: #fff;
+    font-size: 20px;
+
+    width: 200px;
+
+    margin: 10px;   
+}
+
+.graph_chart{
+    position: relative;
+    left: 840px;
+    width: 440px;
+    height: 420px;
+
+    background: url(../images/graph.jpg);      
+}
+
+
+/*main_text*/
+.main_text{
+    padding: 25px; 
+}
+
+.red{
+    color: #ef6b4a;
+}
+/*Module - Modules are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on.*/
+
+
+/*Themes - Describe how modules or layouts might look*/
+

@@ -1,0 +1,5 @@
+Swatch
+Yellow - FFCA28
+Red - #ef6b4a
+Dark grey - #3d353a
+Light grey - F4F4EE
